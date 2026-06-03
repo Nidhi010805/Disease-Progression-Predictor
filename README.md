@@ -12,7 +12,7 @@ The system helps in early disease detection and supports medical decision-making
 
 ## 🚀 Live Demo
 
-👉 https://your-streamlit-app-link.streamlit.app
+[https://disease-progression-predictor-5vzotkw6atlrgdkuskwkmq.streamlit.app/]
 
 ---
 
