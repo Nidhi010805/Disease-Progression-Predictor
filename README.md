@@ -99,22 +99,23 @@ Thalassemia
 
 
  # Output
-The system predicts:
-Probability of disease progression
-Risk Category
-🟢 Low Risk
-🟠 Medium Risk
-🔴 High Risk
+- The system predicts:
+- Probability of disease progression
+- Risk Category
+- 🟢 Low Risk
+- 🟠 Medium Risk
+- 🔴 High Risk
 
  # Key Insights
-Random Forest performed best due to non-linear pattern handling
-Dataset shows strong feature separability
-Explainability improves trust in medical predictions
-Model is suitable for early risk detection systems
+- Random Forest and XGBoost achieved the highest predictive performance.
+- Clinical attributes such as chest pain type, maximum heart rate, and vessel count strongly influence predictions.
+- Feature importance analysis improves model interpretability and trust.
+- The deployed system provides real-time cardiac risk assessment through an interactive web interface.
 
 # Future Improvements
-Add SHAP explainability inside Streamlit UI
-Deploy on Streamlit Cloud / AWS
-Add patient history tracking
-Improve dataset size for better generalization
-Add authentication system
+- Integrate SHAP-based explainability within the Streamlit UI
+- Add patient history tracking and prediction logging
+- Improve model generalization using larger healthcare datasets
+- Implement user authentication and secure access
+- Generate downloadable PDF health reports
+- Deploy on AWS/Azure for scalable production use
