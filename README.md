@@ -1,12 +1,14 @@
-# Disease Progression Predictor (AI + ML Project)
+# Heart Disease Risk Prediction System
 
 ##  Overview
 
-The **Disease Progression Predictor** is an end-to-end Machine Learning system that predicts the risk level of disease progression in patients based on clinical health parameters.
+The Heart Disease Risk Prediction System is an end-to-end Machine Learning application that predicts the likelihood of heart disease using clinical health parameters.
 
-It uses ML models like **Random Forest / XGBoost** and provides a **Streamlit web app** for real-time predictions with risk classification.
+The system utilizes machine learning algorithms such as Logistic Regression, Random Forest, and XGBoost to analyze patient data and generate real-time risk predictions. An interactive Streamlit web application enables users to obtain instant risk assessments along with probability scores.
 
-The system helps in early disease detection and supports medical decision-making.
+The project demonstrates the complete machine learning workflow, including data preprocessing, exploratory data analysis, model training, evaluation, and deployment.
+
+The system can assist in early risk identification and support healthcare decision-making.
 
 
 ##  Live Demo
