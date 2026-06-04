@@ -1,6 +1,6 @@
-# 🫀 Disease Progression Predictor (AI + ML Project)
+# Disease Progression Predictor (AI + ML Project)
 
-## 📌 Overview
+##  Overview
 
 The **Disease Progression Predictor** is an end-to-end Machine Learning system that predicts the risk level of disease progression in patients based on clinical health parameters.
 
@@ -8,15 +8,13 @@ It uses ML models like **Random Forest / XGBoost** and provides a **Streamlit we
 
 The system helps in early disease detection and supports medical decision-making.
 
----
 
-## 🚀 Live Demo
+##  Live Demo
 
 [https://disease-progression-predictor-5vzotkw6atlrgdkuskwkmq.streamlit.app/]
 
----
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 In healthcare, early prediction of disease progression is critical. Manual analysis of patient data is slow and error-prone.
 
@@ -27,7 +25,7 @@ This project builds an AI system that:
 
 ---
 
-## 🧠 Solution Approach
+## Solution Approach
 
 - Data collection and preprocessing
 - Exploratory Data Analysis (EDA)
@@ -37,9 +35,8 @@ This project builds an AI system that:
 - Explainability using feature importance
 - Deployment using Streamlit
 
----
 
-## 📊 Features
+## Features
 
 - 🏥 Disease progression prediction
 - 📈 Real-time ML predictions
@@ -53,7 +50,7 @@ This project builds an AI system that:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 🐍
 - Pandas & NumPy
@@ -63,32 +60,11 @@ This project builds an AI system that:
 - Matplotlib & Seaborn
 - Joblib
 
----
-
-## 📁 Project Structure
-Disease-Progression-Predictor/
-│
-├── app/
-│ └── app.py # Streamlit web app
-│
-├── notebooks/
-│ ├── model.pkl # Trained ML model
-│ ├── scaler.pkl # Feature scaler
-│ ├── EDA_training.ipynb # Data analysis & training
-│
-├── requirements.txt
-├── README.md
-├── .gitignore
-
-
----
-
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Clone repository
-```bash
-git clone https://github.com/yourusername/Disease-Progression-Predictor.git
-cd Disease-Progression-Predictor
+[https://github.com/yourusername/Heart-Disease-Risk-Prediction.git](https://github.com/Nidhi010805/Disease-Progression-Predictor)
+
 
 ### 2️⃣ Install dependencies
 pip install -r requirements.txt
@@ -96,7 +72,7 @@ pip install -r requirements.txt
 ### 3️⃣ Run Streamlit app
 streamlit run app/app.py
 
-🧪 Model Performance
+ Model Performance
 Model	Accuracy
 Logistic Regression	79%
 Random Forest	98.5%
@@ -104,7 +80,7 @@ XGBoost	98.5%
 
 ✔ Best Model: Random Forest / XGBoost
 
-📌 Input Features
+ Input Features
 Age
 Sex
 Chest Pain Type
@@ -120,29 +96,21 @@ Number of vessels colored (ca)
 Thalassemia
 
 
-📊 Output
-
+ # Output
 The system predicts:
-
 Probability of disease progression
-Risk Level:
+Risk Category
 🟢 Low Risk
 🟠 Medium Risk
 🔴 High Risk
 
-🧠 Key Insights
+ # Key Insights
 Random Forest performed best due to non-linear pattern handling
 Dataset shows strong feature separability
 Explainability improves trust in medical predictions
 Model is suitable for early risk detection systems
 
-📸 Screenshots (Add Later)
-Streamlit UI
-Prediction results
-
-Feature importance graph
-SHAP explanation plots
-🚀 Future Improvements
+# Future Improvements
 Add SHAP explainability inside Streamlit UI
 Deploy on Streamlit Cloud / AWS
 Add patient history tracking
